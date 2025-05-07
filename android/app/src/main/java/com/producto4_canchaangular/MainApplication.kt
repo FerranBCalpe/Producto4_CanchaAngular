@@ -1,4 +1,4 @@
-package com.producto4_canchaangular
+package com.canchaAngular.mobile
 
 import android.app.Application
 import com.facebook.react.PackageList

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "627933416502",
+    "project_id": "canchaangularmobile",
+    "storage_bucket": "canchaangularmobile.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627933416502:android:e2f5ab3c705dcc55365c97",
+        "android_client_info": {
+          "package_name": "com.canchaAngular.mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8btmt5Oo62b6u7mMFqMvIKJKLx0Pdv_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

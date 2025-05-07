@@ -1,4 +1,4 @@
-package com.producto4_canchaangular
+package com.cancha_angular.mobile
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
