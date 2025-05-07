@@ -30,7 +30,7 @@ const Banner = ({ playerId }: BannerProps) => {
   return (
     <View style={styles.banner}>
       <Image
-        source={require('../assets/logosho.png')}
+        source={require('assets/logosho.png')}
         style={styles.bannerImage}
         resizeMode="contain"
       />

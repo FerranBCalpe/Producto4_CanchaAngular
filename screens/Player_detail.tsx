@@ -6,7 +6,7 @@ import { useNavigation, useRoute } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../navigation/AppNavigator';
 import Banner from '../components/banner';
-import PentagonChart from '../components/PentagonChart';
+import PentagonChart from '../components/PetagonChart';
 import { Player } from '../type/player';
 
 // Importa los iconos y BlurView
