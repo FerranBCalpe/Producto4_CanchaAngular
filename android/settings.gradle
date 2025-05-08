@@ -3,4 +3,6 @@ plugins { id("com.facebook.react.settings") }
 extensions.configure(com.facebook.react.ReactSettingsExtension){ ex -> ex.autolinkLibrariesFromCommand() }
 rootProject.name = 'Producto4_CanchaAngular'
 include ':app'
+include ':react-native-gesture-handler'
+include ':react-native-reanimated'
 includeBuild('../node_modules/@react-native/gradle-plugin')
