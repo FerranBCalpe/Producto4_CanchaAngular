@@ -10,7 +10,7 @@ import {
   ImageBackground,
 } from 'react-native';
 import { collection, getDocs } from 'firebase/firestore';
-import { db } from '../config/firebase-setup';
+import { db } from '../../config/firebase-setup';
 import { PlayerShort } from '../type/player';
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -86,7 +86,7 @@ const TeamScreen = () => {
       {/* 🔴 Banner Shohoku */}
       <View style={styles.banner}>
         <Image
-          source={require('../assets/logosho.png')}
+          source={require('../../assets/logosho.png')}
           style={styles.bannerImage}
           resizeMode="contain"
         />

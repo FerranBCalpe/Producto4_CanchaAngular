@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, Image, Text, StyleSheet } from 'react-native';
 import { doc, getDoc } from 'firebase/firestore';
-import { db } from '../config/firebase-setup';
+import { db } from '../../config/firebase-setup';
 
 type BannerProps = {
   playerId: string;
@@ -30,7 +30,7 @@ const Banner = ({ playerId }: BannerProps) => {
   return (
     <View style={styles.banner}>
       <Image
-        source={require('assets/logosho.png')}
+        source={require('../../assets/logosho.png')}
         style={styles.bannerImage}
         resizeMode="contain"
       />

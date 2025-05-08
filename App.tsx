@@ -2,8 +2,8 @@ import React from 'react';
 import { StyleSheet, View, StatusBar } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { enableScreens } from 'react-native-screens';
-import AppNavigator from './navigation/AppNavigator';
-import Footer from './components/Footer';
+import AppNavigator from './src/navigation/AppNavigator';
+import Footer from './src/components/Footer';
 
 enableScreens();
 
