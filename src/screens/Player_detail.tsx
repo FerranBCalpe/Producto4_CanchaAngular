@@ -9,9 +9,7 @@ import Banner from '../components/banner';
 import PentagonChart from '../components/PetagonChart';
 import { Player } from '../type/player';
 
-// Importa los iconos y BlurView
-import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import { BlurView } from '@react-native-community/blur';
+
 
 type NavigationProp = NativeStackNavigationProp<RootStackParamList, 'PlayerDetail'>;
 
@@ -122,10 +120,10 @@ const PlayerDetail = () => {
             </View>
 
             {/* Bio encima */}
-            <BlurView intensity={40} tint="light" style={styles.bioGlass}>
+            <View intensity={40} tint="light" style={styles.bioGlass}>
               <Text style={styles.sectionTitle}>Biografía</Text>
               <Text style={styles.bio}>{player.bio}</Text>
-            </BlurView>
+            </View>
           </View>
 
           {/* Gráfico de habilidades */}

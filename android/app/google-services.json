@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "731488175013",
+    "firebase_url": "https://cancha-angular-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "cancha-angular",
+    "storage_bucket": "cancha-angular.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731488175013:android:c20c7a1a005cd3d5119e4c",
+        "android_client_info": {
+          "package_name": "com.producto4_canchaangular"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731488175013-7p2n5vgqv5ciuhq22jkoq5e38s2d3kh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV_4kz1upMfb5s4qBs7uUwcDZRJB-GRtc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731488175013-7p2n5vgqv5ciuhq22jkoq5e38s2d3kh0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
