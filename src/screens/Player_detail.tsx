@@ -84,7 +84,7 @@ const PlayerDetail = () => {
         <View style={styles.stackContainer}>
           <Pressable style={({ pressed }) => [styles.button, pressed && styles.pressed]} onPress={handlePress}>
             <Text style={styles.text}>Ver Media </Text>
-            <MaterialIcons name="perm-media" size={20} color="#fff" style={{ marginLeft: 5 }} />
+
           </Pressable>
           {/* 👇 Los textos con los datos debajo de la imagen */}
           <View style={styles.infoUnderImage}>
@@ -134,14 +134,16 @@ const PlayerDetail = () => {
       </ScrollView>
 
       {/* Modal de imagen grande */}
-      <Modal visible={modalVisible} transparent animationType="fade">
-        <View style={styles.modalBackground}>
-          <Pressable style={styles.closeButton} onPress={() => setModalVisible(false)}>
-            <MaterialIcons name="close" size={30} color="#fff" />
-          </Pressable>
-          <Image source={{ uri: player.foto }} style={styles.fullscreenImage} />
-        </View>
-      </Modal>
+    <Modal visible={modalVisible} transparent animationType="fade">
+      <View style={styles.modalBackground}>
+        <Pressable style={styles.closeButton} onPress={() => setModalVisible(false)}>
+          <Text style={styles.closeButtonText}>✕</Text>
+        </Pressable>
+        <Image source={{ uri: player.foto }} style={styles.fullscreenImage} />
+      </View>
+    </Modal>
+
+
     </View>
   );
 };
@@ -270,6 +272,12 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     padding: 8,
   },
+  closeButtonText: {
+    color: 'white',
+    fontSize: 28,
+    fontWeight: 'bold',
+  },
+
 });
 
 export default PlayerDetail;
